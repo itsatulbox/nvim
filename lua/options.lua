@@ -7,6 +7,7 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+vim.g.omni_sql_no_default_maps = 1
 vim.g.mapleader = " "
 
 vim.diagnostic.config({ virtual_text = true })
